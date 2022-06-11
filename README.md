@@ -1,4 +1,4 @@
-# Delphi-Generation
+# Delphi Generation
 Php scripts for generator fake Delphi calendar data.
 
 ## Event Details
