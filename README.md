@@ -2,9 +2,9 @@
 Php scripts for generator fake Delphi calendar data.
 
 ## Event Details
-Generates event details for the passed number.
+Generates event details for the passed number. You can also pass an optional id which will be included in the final generated file name.
 
-```php EventDetails.php {x}```
+```php EventDetails.php {x} {id}```
 
 Sample output:
 

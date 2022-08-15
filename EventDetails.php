@@ -33,7 +33,7 @@ function randomEndDate($start) {
 }
 
 $array = [];
-$id = randomString(48);
+$id = !empty($argv[2]) ? $argv[2] : randomString(48);
 
 function createEntry($date, $id) {
 
@@ -76,7 +76,12 @@ $entry =   '{
 }
 
 if (!is_numeric($argv[1])) {
-  echo("First Argument must be int\n");
+  echo("First argument must be int\n");
+  return;
+}
+
+if (!empty($argv[2]) && !is_string($argv[2])) {
+  echo("Second argument must be string\n");
   return;
 }
 
