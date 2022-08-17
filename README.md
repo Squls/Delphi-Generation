@@ -9,24 +9,23 @@ Generates event details for the passed number. You can also pass an optional id 
 Sample output:
 
 ```
-array(10) {
-  [0]=>
-  string(1025) "{
-    "ExternalId": "LfvriO27UzEDzwk6Cd",
-    "AccountName": "TriplePlay Testing",
+[
+  {
+    "ExternalId": "rtpkCnTtfHPeFZd0LA",
+    "AccountName": "Delphi Testing",
     "AlternateAccountName": null,
     "AlternateBookingPostAs": null,
     "AlternateEventClassificationName": null,
     "AlternateFunctionRoomName": null,
     "BookingPostAs": "Meetings",
     "BookingTypeName": "Group",
-    "EndDateTime": "2022-06-11BST08:00:00",
+    "EndDateTime": "2022-08-17BST13:00:00",
     "EventClassificationName": "Event 1",
-    "ExternalAccountId": "1QsTxhreRqMEiEXZep",
-    "ExternalFunctionRoomId": "1jfbw0mFeYMjbEYnof",
-    "FunctionRoomName": "Location 5",
+    "ExternalAccountId": "5Ii0WpyQw3JJlQVegY",
+    "ExternalFunctionRoomId": "5kr48rHNjp4V9ZMZJP",
+    "FunctionRoomName": "Location 4",
     "LocationName": "Main TriplePlay",
-    "StartDateTime": "2022-06-11BST05:00:00",
+    "StartDateTime": "2022-08-17BST10:00:00",
     "AgreedAttendance": null,
     "AlternateName": null,
     "Description": null,
@@ -36,9 +35,9 @@ array(10) {
     "IsPosted": true,
     "Name": "Event 1",
     "SetAttendance": null,
-    "ExternalBookingId": "maiqhGQQmFmrT6F3Yn",
-    "ExternalLocationId": "YLNwYpCGdWmTJBgohQ",
-    "Id": "31XQ7dn24hHDiG5a64RfGNNG0j2rzNdbsqJX5A9ixXN4Bkz1"
-  }"
-}
+    "ExternalBookingId": "8BtchfQYyb8zSZiuiT",
+    "ExternalLocationId": "HNP4ibmQzy3TwJNpos",
+    "Id": "ErS9f6bfVSMMK1aWefcbXoLOnIxfTJPNiUNc5WlNaNnSPtHg"
+  }
+]
 ```

@@ -43,7 +43,7 @@ $locationNumber = rand(1,5);
 
 $entry =   '{
     "ExternalId": "' . randomString(18) . '",
-    "AccountName": "TriplePlay Testing",
+    "AccountName": "Delphi Testing",
     "AlternateAccountName": null,
     "AlternateBookingPostAs": null,
     "AlternateEventClassificationName": null,
@@ -71,7 +71,6 @@ $entry =   '{
     "Id": "' . $id . '"
   }';
 
-
   return $entry;
 }
 
@@ -89,11 +88,9 @@ $now = new DateTime();
 
 for ($i = 0; $i < (int)$argv[1]; $i++) {
   $newEntry = createEntry($now, $id);
-  array_push($array, $newEntry);
+  array_push($array, json_decode($newEntry));
 }
 
-var_dump($array);
+file_put_contents("EventDetails_" . $id . ".json", stripslashes(json_encode($array, JSON_UNESCAPED_SLASHES)));
 
-file_put_contents("EventDetails_" . $id . ".json", json_encode($array));
-
- ?>
+?>
