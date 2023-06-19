@@ -24,7 +24,7 @@ Sample output:
     "ExternalAccountId": "5Ii0WpyQw3JJlQVegY",
     "ExternalFunctionRoomId": "5kr48rHNjp4V9ZMZJP",
     "FunctionRoomName": "Location 4",
-    "LocationName": "Main TriplePlay",
+    "LocationName": "Main Hall",
     "StartDateTime": "2022-08-17BST10:00:00",
     "AgreedAttendance": null,
     "AlternateName": null,
